@@ -1,4 +1,4 @@
-const GAME_FPS = 60;
+const GAME_FPS = 30;
 
 const parseRange = rangeStr => rangeStr.split('-').map(s => parseInt(s) / GAME_FPS);
 const parseRanges = str => str.split(/\s*,\s*/).map(parseRange);
@@ -12,11 +12,7 @@ const moveRect = (elt, x, y, w, h) => {
 };
 
 const DEFAULT_PRESETS = [
-  { name: 'kg/gg (2 RC)', frames: "2291-2300, 2678-2683, 2971-2976, 4000-4029" },
-  { name: 'kg/gg (3 RC)', frames: '2291-2300, 2678-2683, 2971-2976, 3753-3760' },
-  { name: 'kg/gg (4 RC)', frames: '998-1001, 1651-1654, 2098-2101, 2470-2473, 2747-2750' },
-  { name: 'kg/gg (4 RC, mill)', frames: '993-996, 1645-1648, 2092-2095, 2464-2467, 2742-2745' },
-  { name: 'nimbus (mill)', frames: '2845-2849' },
+  { name: 'Coin', frames: "59-61, 550-552, 844-846" },
 ];
 
 const presentToSelectItem = preset => {

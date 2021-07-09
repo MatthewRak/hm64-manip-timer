@@ -14,7 +14,7 @@ const moveRect = (elt, x, y, w, h) => {
 const DEFAULT_PRESETS = [
   { name: 'Demo - S1S', frames: "59-61, 602-604" },
   { name: 'Demo - Coin', frames: "59-61, 550-552, 844-846" },
-  { name: 'Demo - Medals', frames: "59-61, 560-562, 3638-3640" },
+  { name: 'Demo - Medals', frames: "59-61, 560-562, 3640-3642" },
   { name: 'Demo - Dog Win', frames: "59-61, 559-561, 2999-3001" },
 ];
 

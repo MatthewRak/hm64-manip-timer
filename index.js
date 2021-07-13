@@ -158,7 +158,7 @@ class Track {
 
     this.t = 0;
     this.scrollSpeed = scrollSpeed;
-    this.tMax = ranges.reduce((tMax, range) => Math.max(tMax, range[1] + 1));
+    this.tMax = ranges.reduce((tMax, range) => Math.max(tMax, range[0] + 0));
     this.hidden = false;
 
     this.notes = [];

@@ -186,9 +186,7 @@ class Track {
   draw() {
     if (this.notes.length > 0) {
       this.notes[0].draw();
-    } else if (!this.hidden) {
-      this.setVisibility(false);
-    }
+    } 
   }
 
   update(dt) {

@@ -12,10 +12,10 @@ const moveRect = (elt, x, y, w, h) => {
 };
 
 const DEFAULT_PRESETS = [
-  { name: 'Demo - S1S', frames: "59-61, 602-604" },
-  { name: 'Demo - Coin', frames: "59-61, 550-552, 844-846" },
-  { name: 'Demo - Medals', frames: "59-61, 560-562, 3640-3642" },
-  { name: 'Demo - Dog Win', frames: "59-61, 559-561, 2999-3001" },
+  { name: 'Demo - S1S', frames: "60-61, 603-604" },
+  { name: 'Demo - Coin', frames: "60-61, 551-552, 845-846" },
+  { name: 'Demo - Medals', frames: "60-61, 561-562, 3641-3642" },
+  { name: 'Demo - Dog Win', frames: "60-61, 560-561, 3000-3001" },
 ];
 
 const presentToSelectItem = preset => {

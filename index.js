@@ -158,7 +158,7 @@ class Track {
 
     this.t = 0;
     this.scrollSpeed = scrollSpeed;
-    this.tMax = ranges.reduce((tMax, range) => Math.max(tMax, range[0] + 0));
+    this.tMax = ranges.reduce((tMax, range) => Math.max(tMax, range[1] + 1));
     this.hidden = false;
 
     this.notes = [];
@@ -186,7 +186,9 @@ class Track {
   draw() {
     if (this.notes.length > 0) {
       this.notes[0].draw();
-    } 
+    } else if (!this.hidden) {
+      this.setVisibility(false);
+    }
   }
 
   update(dt) {

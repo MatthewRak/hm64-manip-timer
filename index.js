@@ -14,7 +14,7 @@ const moveRect = (elt, x, y, w, h) => {
 const DEFAULT_PRESETS = [
   { name: 'Rain', frames: "60-61, 551-552, 847-848" },
   { name: 'Karen Location', frames: "60-61, 603-604" },
-  { name: 'Coin', frames: "60-61, 1129-1130" },
+  { name: 'Coin', frames: "60-61, 551-552, 845-846" },
   { name: 'Medals', frames: "60-61, 562-563, 3642-3643" },
   { name: 'Dog Win', frames: "60-61, 560-561, 3000-3001" },
 ];

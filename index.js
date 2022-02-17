@@ -12,11 +12,10 @@ const moveRect = (elt, x, y, w, h) => {
 };
 
 const DEFAULT_PRESETS = [
-  { name: 'Rain', frames: "60-61, 551-552, 847-848" },
+  { name: 'Rain', frames: "60-61, 380-381, 436-437, 504-505, 557-558, 740-741, 781-782, 823-824" },
   { name: 'Karen Location', frames: "60-61, 570-573" },
-  { name: 'Coin - 1 frame', frames: "60-61, 551-552, 845-846" },
-  { name: 'Coin - 2 frames', frames: "60-61, 566-567, 782-784" },
-  { name: 'Medals', frames: "60-61, 562-563, 3642-3643" },
+  { name: 'Coin', frames: "60-61, 380-381, 436-437, 504-505, 566-567, 782-784" },
+  { name: 'Medals', frames: "60-61, 385-386, 439-440, 506-507, 560-561, 741-742, 1048-1049, 1991-1992, 2598-2599, 3642-3643" },
   { name: 'Medals - Crazy Odds', frames: "60-61, 622-623" },
   { name: 'Dog Win', frames: "60-61, 560-561, 3000-3001" },
 ];
